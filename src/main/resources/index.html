@@ -426,10 +426,6 @@
         }
 
         function handleMove(node, e) {
-            console.log("handle with JQueryEventObject");
-        }
-
-        function handleMove(node, e) {
             alert("handleMove() called");
             if (isOverTarget(e)) {
                 console.log("the node is over the target div");
@@ -583,6 +579,11 @@
     $('#centralPanelSaveBtn').click(function () {
         alert("clicked");
 //        $('#xRulesTextArea').append("hello"); //todo: correct version
+        $('#xRulesTextArea').append($('#xRulesDropdown').text());
+    });
+
+    // add all content from dropdown button
+    $('#xRulesDropdown').click(function(v){
         $('#xRulesTextArea').append($('#xRulesDropdown').text());
     });
 
