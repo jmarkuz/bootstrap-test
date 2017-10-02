@@ -1,0 +1,21 @@
+### Java ###
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+### Java-Web ignoring target file ###
+target/
+
+# Gradle
+gradlew.bat
+*.gardle

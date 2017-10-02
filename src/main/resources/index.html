@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Optimus/WEB</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Compiled and minified CSS / JavaScript-->
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <!--<script src="js/materialize.min.js"></script>-->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!--Some style-->
+    <style type="text/css">
+        #targetDiv {
+            height: 50px;
+            width: 300px;
+            background-color: blanchedalmond;
+        }
+
+        #scroll-container {
+            height: 200px;
+            overflow-y: scroll;
+            user-select: none;
+        }
+
+        .dropdown-content {
+            width: auto !important;
+        }
+
+        .page-footer {
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            margin: 0 auto;
+        }
+    </style>
+
+    <!-- Google Material Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body style="background: rgba(128, 128, 128, 0.1);">
+
+<nav class="navbar navbar-default">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a href="#" class="navbar-brand">Optimus/WEB</a>
+    </div>
+    <!-- Collection of nav links, forms, and other content for toggling -->
+    <div id="navbarCollapse" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Edit</a></li>
+            <li class="dropdown">
+                <a data-toggle="dropdown" class="dropdown-toggle" href="#">Messages <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Inbox</a></li>
+                    <li><a href="#">Drafts</a></li>
+                    <li><a href="#">Sent Items</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Trash</a></li>
+                </ul>
+            </li>
+        </ul>
+        <form class="navbar-form navbar-left">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search">
+                <span class="input-group-btn">
+                    <button id="navBarFormSearchBtn" type="button" class="btn btn-default"><span
+                            class="glyphicon glyphicon-search"></span></button>
+                </span>
+            </div>
+        </form>
+        <ul class="nav navbar-nav navbar-right">
+            <!--<i class="material-icons">cloud_queue</i>-->
+            <li><a href="#">Login</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Button HTML (to Trigger Modal) -->
+<a id="modalBtn" href="#myModal" role="button" class="btn btn-small btn-primary" data-toggle="modal">Launch Demo Modal</a>
+
+<!-- Main container -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card blueprint sticky-action">
+                <div class="card-content">
+                    <span class="card-title grey-text text-darken-4">Input File</span>
+                    <!-- add jTree-->
+                    <div id="tree2">
+                        <ul class="jqtree_common jqtree-tree" role="tree">
+                            <li class="jqtree_common jqtree-folder jqtree-closed jqtree-selected"
+                                aria-selected="true">
+                                <div class="jqtree-element jqtree_common"><a
+                                        class="jqtree-toggler jqtree_common jqtree-toggler-left jqtree-closed"
+
+                                        aria-hidden="true">►</a><span
+                                        class="jqtree-title jqtree_common jqtree-title-folder" role="treeitem"
+                                        aria-level="1" aria-selected="false" aria-expanded="false"
+                                        tabindex="0">node1</span></div>
+                                <ul class="jqtree_common " role="group" style="display: none;">
+                                    <li class="jqtree_common">
+                                        <div class="jqtree-element jqtree_common"><span
+                                                class="jqtree-title jqtree_common" role="treeitem" aria-level="2"
+                                                aria-selected="false"
+                                                aria-expanded="false">child1</span></div>
+                                    </li>
+                                    <li class="jqtree_common">
+                                        <div class="jqtree-element jqtree_common"><span
+                                                class="jqtree-title jqtree_common" role="treeitem" aria-level="2"
+                                                aria-selected="false"
+                                                aria-expanded="false">child2</span></div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="jqtree_common jqtree-folder jqtree-closed"
+                                aria-selected="false">
+                                <div class="jqtree-element jqtree_common"><a
+                                        class="jqtree-toggler jqtree_common jqtree-toggler-left jqtree-closed"
+
+                                        aria-hidden="true">►</a><span
+                                        class="jqtree-title jqtree_common jqtree-title-folder" role="treeitem"
+                                        aria-level="1" aria-selected="false"
+                                        aria-expanded="false">node2</span></div>
+                                <ul class="jqtree_common " role="group" style="display: none;">
+                                    <li class="jqtree_common">
+                                        <div class="jqtree-element jqtree_common"><span
+                                                class="jqtree-title jqtree_common" role="treeitem" aria-level="2"
+                                                aria-selected="false"
+                                                aria-expanded="false">child3</span></div>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="targetDiv">drag here</div>
+                </div>
+                <div class="card-action">
+                    <a href="#modal1" class="modal-trigger">Learn more</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <!--Sample Form -->
+            <div class="card blueprint sticky-action">
+                <div style="padding-top: 6px; padding-right: 24px; padding-bottom: 24px; padding-left: 24px;">
+                    <div class="header">
+                        <h5 class="title">Processing X-Rules</h5>
+                    </div>
+                    <div class="content">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Write X-Rule">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Dropdown Trigger / Structure -->
+                            <a class='dropdown-button btn' href='#' data-activates='xRulesDropdown'>Used X-Rules</a>
+
+                            <ul id='xRulesDropdown' class='dropdown-content'>
+                                <li><a href="#!">first_rule</a></li>
+                                <li><a href="#!">second_rule</a></li>
+                                <li><a href="#!">third_rule</a></li>
+                                <li><a href="#!">another_rule</a></li>
+                            </ul>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <textarea id="xRulesTextArea" rows="5" class="form-control"
+                                                  placeholder="Write several X-Rules"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <button id="centralPanelSaveBtn" type="submit" class="btn btn-info btn-fill pull-right">
+                                Process
+                            </button>
+                            <div class="clearfix"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card blueprint sticky-action">
+                <div class="card-content">
+                    <span class="card-title grey-text text-darken-4">Output File</span>
+                    <!-- add jTree-->
+                    <div id="tree1">
+                        <ul class="jqtree_common jqtree-tree" role="tree">
+                            <li class="jqtree_common jqtree-folder jqtree-closed jqtree-selected"
+                                aria-selected="true">
+                                <div class="jqtree-element jqtree_common"><a
+                                        class="jqtree-toggler jqtree_common jqtree-toggler-left jqtree-closed"
+
+                                        aria-hidden="true">►</a><span
+                                        class="jqtree-title jqtree_common jqtree-title-folder" role="treeitem"
+                                        aria-level="1" aria-selected="false" aria-expanded="false"
+                                        tabindex="0">node1</span></div>
+                                <ul class="jqtree_common " role="group" style="display: none;">
+                                    <li class="jqtree_common">
+                                        <div class="jqtree-element jqtree_common"><span
+                                                class="jqtree-title jqtree_common" role="treeitem" aria-level="2"
+                                                aria-selected="false"
+                                                aria-expanded="false">child1</span></div>
+                                    </li>
+                                    <li class="jqtree_common">
+                                        <div class="jqtree-element jqtree_common"><span
+                                                class="jqtree-title jqtree_common" role="treeitem" aria-level="2"
+                                                aria-selected="false"
+                                                aria-expanded="false">child2</span></div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="jqtree_common jqtree-folder jqtree-closed"
+                                aria-selected="false">
+                                <div class="jqtree-element jqtree_common"><a
+                                        class="jqtree-toggler jqtree_common jqtree-toggler-left jqtree-closed"
+
+                                        aria-hidden="true">►</a><span
+                                        class="jqtree-title jqtree_common jqtree-title-folder" role="treeitem"
+                                        aria-level="1" aria-selected="false"
+                                        aria-expanded="false">node2</span></div>
+                                <ul class="jqtree_common " role="group" style="display: none;">
+                                    <li class="jqtree_common">
+                                        <div class="jqtree-element jqtree_common"><span
+                                                class="jqtree-title jqtree_common" role="treeitem" aria-level="2"
+                                                aria-selected="false"
+                                                aria-expanded="false">child3</span></div>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card-action">
+                    <a href="#modal1" class="modal-trigger">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal window -->
+<div id="myModal" class="modal fade">
+    <!--<div class="modal-content">-->
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">Edit</h4>
+    </div>
+    <div class="modal-body">
+        <!--Sample Form -->
+        <div class="content">
+            <form>
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="form-group">
+                            <input type="text" class="form-control" disabled placeholder="Company">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Username">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Company">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Last Name">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Home Address">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="City">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Country">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <input type="number" class="form-control" placeholder="ZIP Code">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <textarea rows="5" class="form-control"
+                                      placeholder="Here can be your description"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <!--<button type="submit" class="btn btn-info btn-fill pull-right">Save</button>-->
+                <div class="modal-footer">
+                    <button id="modalPopupCloseBtn" type="button" class="btn btn-default" data-dismiss="modal">Close
+                    </button>
+                    <button id="modalPopupSaveBtn" type="button" class="btn btn-primary" data-dismiss="modal">Save
+                        changes
+                    </button>
+                </div>
+                <div class="clearfix"></div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="page-footer" style="background-color: #26a69a !important">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Footer Content</h5>
+
+                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer
+                    content.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            © 2017 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">Contacts</a>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<!--materialize-->
+<script src="js/materialize.min.js"></script>
+<!--lhTree/rhTree widget-->
+<script src="jqTree/tree.jquery.js"></script>
+<link rel="stylesheet" href="jqTree/jqTree.css">
+
+<script src="js/jquery.mockjax.js"></script>
+<script src="js/drag-outside.js"></script>
+
+<script>
+
+    // -------- test data for JqTree ---------
+    var data = [
+        {
+            name: 'node1', id: 1,
+            children: [
+                {name: 'child1', id: 2},
+                {name: 'child2', id: 3}
+            ]
+        }, {
+            name: 'node2', id: 4,
+            children: [
+                {name: 'child3', id: 5}
+            ]
+        }
+    ];
+
+    // ------------ JqTree dnd --------------
+
+    $(function () {
+        console.log("root function called");
+        var targetDiv = $("#targetDiv");
+
+        function isOverTarget(e) {
+            console.log("isOverTarget() called");
+            return ( e.clientX > targetDiv.position().left &&
+            e.clientX < targetDiv.position().left + targetDiv.width() &&
+            e.clientY > targetDiv.position().top &&
+            e.clientY < targetDiv.position().top + targetDiv.height());
+        }
+
+        function handleMove(node, e) {
+            console.log("handle with JQueryEventObject");
+        }
+
+        function handleMove(node, e) {
+            console.log("handleMove() called");
+            if (isOverTarget(e)) {
+                console.log("the node is over the target div");
+            }
+        }
+
+        function handleStop(node, e) {
+            console.log("handleStop() called");
+            console.log("stopped over target: ", isOverTarget(e));
+        }
+
+        $("#tree1").tree({
+            dragAndDrop: true,
+            onDragMove: handleMove,
+            onDragStop: handleStop
+        });
+
+        $("#tree2").tree({
+            dragAndDrop: true,
+            onDragMove: handleMove,
+            onDragStop: handleStop
+        });
+    });
+
+    $('#tree1').tree({
+        data: data,
+        autoOpen: true,
+        dragAndDrop: true
+    });
+
+    $('#tree2').tree({
+        data: data,
+        autoOpen: true,
+        dragAndDrop: true
+    });
+
+    $('.tree-toggle').click(function () {
+        $(this).parent().children('ul.tree').toggle(200);
+    });
+
+    $(function () {
+        $('.tree-toggle').parent().children('ul.tree').toggle(200);
+    });
+
+    // dropdown button handler
+    $('.dropdown-button').dropdown({
+        inDuration: 300,
+        outDuration: 225,
+        constrainWidth: false, // Does not change width of dropdown to that of the activator
+        hover: true, // Activate on hover
+        gutter: 0, // Spacing from edge
+        belowOrigin: false, // Displays dropdown below the button
+        alignment: 'left', // Displays dropdown with edge aligned to the left of button
+        stopPropagation: false // Stops event propagation
+    });
+
+    // --------- Tree select handlers ----------
+    $('#tree1, #tree2').bind(
+            'tree.select',
+            function(event) {
+                if (event.node) {
+                    var selectedNode = event.node;
+                    console.log("selected node:" + selectedNode);
+                    // todo: add handling of selecting node
+                }
+            }
+    );
+
+    $('#tree1, #tree2').bind(
+            'tree.contextmenu',
+            function(event) {
+                var clickedNode = event.node;
+                console.log("selected node:" + clickedNode);
+                // todo: add handling of clickedNode context menu
+            }
+    );
+
+    // ----------Buttons handlers -----------
+
+    $('.modalBtn').click(function () {
+        $('.modal').modal();
+    });
+
+    $('.btn .btn-info .btn-fill .pull-right').click(function () {
+        console.log("Save click");
+    });
+
+    $('.modal-trigger').click(function () {
+        console.log("Learn more clicked");
+    });
+
+    $('#modalPopupCloseBtn').click(function () {
+        console.log("Close clicked");
+    });
+
+    $('#modalPopupSaveBtn').click(function () {
+        console.log("Save changes clicked");
+    });
+
+    $('#centralPanelSaveBtn').click(function () {
+        console.log("Save central panel clicked");
+    });
+
+    $('#navBarFormSearchBtn').click(function () {
+        console.log("Save central panel clicked");
+    });
+
+    $('#someId').click(function () {
+        console.log("some message");
+    });
+
+    // ---------- TextArea_select_using -----------
+
+    function sendToArea() {
+        document.getElementById("xRulesTextArea").value = "stub"; //document.getElementById("textboxId").value
+    }
+
+    // jQuery code to populate the textBox based on selection:
+    $(document).ready(function () {
+        // apply a change event
+        $('#xRulesDropdown').change(function () {
+            console.log("xRulesDropdown called");
+            // update textArea with the currently selected value
+            $('#xRulesTextArea').val($(this).val());
+        });
+    });
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Bootstrap_UI_gb.iml" filepath="$PROJECT_DIR$/Bootstrap_UI_gb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Bootstrap_UI_gb_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Bootstrap_UI_gb_main.iml" group="Bootstrap_UI_gb" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Bootstrap_UI_gb_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Bootstrap_UI_gb_test.iml" group="Bootstrap_UI_gb" />
+    </modules>
+  </component>
+</project>

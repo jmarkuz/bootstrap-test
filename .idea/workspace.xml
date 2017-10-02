@@ -1,0 +1,2003 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="da942593-3ba1-4a66-9345-4c2cb553355a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.1/taskArtifacts/cache.properties.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.1/taskArtifacts/fileHashes.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.1/taskArtifacts/fileSnapshots.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.1/taskArtifacts/outputFileStates.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.1/taskArtifacts/taskArtifacts.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/3.5/file-changes/last-build.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/3.5/fileContent/fileContent.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/fileHashes.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/fileSnapshots.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/taskHistory.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/taskHistory.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/built.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/fonts/roboto/Roboto-Bold.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/fonts/roboto/Roboto-Bold.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/fonts/roboto/Roboto-Light.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/fonts/roboto/Roboto-Light.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/fonts/roboto/Roboto-Medium.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/fonts/roboto/Roboto-Medium.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/fonts/roboto/Roboto-Regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/fonts/roboto/Roboto-Regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/fonts/roboto/Roboto-Thin.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/fonts/roboto/Roboto-Thin.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/image/jqtree-circle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/jqtree-circle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/screenshot.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/static/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/static/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/static/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/static/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/static/bower_components/fontawesome/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/static/bower_components/fontawesome/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/static/bower_components/fontawesome/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/static/bower_components/fontawesome/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/static/bower_components/fontawesome/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/static/spinner.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Bootstrap_UI_gb/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Bootstrap_UI_gb/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Bootstrap_UI_gb/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Bootstrap_UI_gb/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/fonts/roboto/Roboto-Bold.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/fonts/roboto/Roboto-Bold.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/fonts/roboto/Roboto-Light.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/fonts/roboto/Roboto-Light.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/fonts/roboto/Roboto-Medium.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/fonts/roboto/Roboto-Medium.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/fonts/roboto/Roboto-Regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/fonts/roboto/Roboto-Regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/fonts/roboto/Roboto-Thin.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/fonts/roboto/Roboto-Thin.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/image/jqtree-circle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/jqtree-circle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/screenshot.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/static/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/static/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/static/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/static/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/static/bower_components/fontawesome/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/static/bower_components/fontawesome/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/static/bower_components/fontawesome/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/static/bower_components/fontawesome/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/static/bower_components/fontawesome/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/static/spinner.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.1/taskArtifacts/cache.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/Bootstrap_UI_gb_main.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/Bootstrap_UI_gb_test.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bootstrap_UI_gb.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/css/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/css/bootstrap-theme.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/css/bootstrap.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/css/jqtree.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/css/materialize.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/css/materialize.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/.editorconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_config.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/01_general.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/02_introduction.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/03_features.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/04_demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/05_requirements.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/06_downloads.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/07_tutorial.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/08_examples.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/09_usecases.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/10_changelog.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/11_options.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/12_autoescape.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/13_autoopen.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/14_buttonleft.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/15_closedicon.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/16_data.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/17_datafilter.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/18_data-url.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/19_draganddrop.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/20_keyboardsupport.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/21_oncanmove.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/22_oncanmoveto.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/23_oncanselectnode.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/24_oncreateli.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/25_ondragmove.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/26_ondragstop.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/27_onismovehandle.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/28_onloadfailed.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/29_onloading.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/30_openedicon.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/31_openfolderdelay.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/32_rtl.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/33_savestate.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/34_selectable.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/35_slide.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/36_tabindex.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/37_usecontextmenu.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/38_addparentnode.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/39_functions.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/40_addnodeafter.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/41_addnodebefore.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/42_appendnode.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/43_closenode.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/44_destroy.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/45_getnodebycallback.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/46_getnodebyid.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/47_getnodebyhtmlelement.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/48_getselectednode.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/49_getstate.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/50_gettree.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/51_loaddata.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/52_loaddatafromurl.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/53_movedown.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/54_movenode.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/55_moveup.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/56_opennode.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/57_prependnode.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/58_reload.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/59_removenode.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/60_selectnode.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/61_scrolltonode.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/62_setoption.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/63_setstate.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/64_toggle.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/65_tojson.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/66_updatenode.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/67_events.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/68_tree-click.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/69_tree-close.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/70_tree-contextmenu.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/71_tree-dblclick.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/72_tree-init.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/73_tree-move.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/74_tree-open.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/75_tree-select.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/76_multiple-selection.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/77_add-to-selection.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/78_get-selected-nodes.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/79_is-node-selected.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/80_remove-from-selection.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/81_node-functions.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/82_children.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/83_getdata.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/84_getlevel.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/85_getnextnode.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/86_getnextsibling.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/87_getpreviousnode.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/88_getprevioussibling.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/89_parent.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/insert.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_entries/renumber.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_examples/01_load_json_data.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_examples/02_load_json_data_from_server.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_examples/03_drag_and_drop.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_examples/04_save_state.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_examples/05_load_on_demand.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_examples/06_autoescape.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_examples/07_autoscroll.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_examples/08_multiple_select.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_examples/09_custom_html.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_examples/10_icon_buttons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_examples/11_right-to-left.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_examples/12_button_on_right.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_examples/13_drag_outside.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_layouts/base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_layouts/frontpage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/_layouts/page.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/build/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/build/test.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/build/tree.jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/build/tree.jquery.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/devserver.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/jqtree.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/jqtree.jquery.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/jqtree.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/karma.conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/lib/drag_and_drop_handler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/lib/elements_renderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/lib/imouse_widget.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/lib/itree_widget.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/lib/key_handler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/lib/mouse.widget.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/lib/node.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/lib/node_element.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/lib/save_state_handler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/lib/scroll_handler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/lib/select_node_handler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/lib/simple.widget.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/lib/tree.jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/lib/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/lib/version.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/phantomjs/runner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/phantomjs/server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/sitemap.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/src/drag_and_drop_handler.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/src/elements_renderer.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/src/header.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/src/imouse_widget.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/src/itree_widget.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/src/key_handler.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/src/mouse.widget.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/src/node.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/src/node_element.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/src/save_state_handler.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/src/scroll_handler.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/src/select_node_handler.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/src/simple.widget.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/src/tree.jquery.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/src/tree.jquery.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/src/util.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/src/version.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/src_test/test.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/src_test/test_jqtree.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/src_test/test_tree.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/src_test/test_util.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/src_test/utils_for_test.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/static/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/static/bower_components/blanket/dist/qunit/blanket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/static/bower_components/bootstrap/dist/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/static/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/static/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/static/bower_components/bootstrap/dist/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/static/bower_components/fontawesome/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/static/bower_components/fontawesome/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/static/bower_components/jquery-1/dist/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/static/bower_components/jquery-1/dist/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/static/bower_components/jquery-2/dist/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/static/bower_components/jquery-2/dist/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/static/bower_components/jquery-mockjax/dist/jquery.mockjax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/static/bower_components/jquery/dist/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/static/bower_components/jquery/dist/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/static/bower_components/json3/lib/json3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/static/bower_components/pygments/css/monokai.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/static/bower_components/qunit/qunit/qunit.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/static/bower_components/qunit/qunit/qunit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/static/devserver.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/static/documentation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/static/documentation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/static/example.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/static/example.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/static/example_data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/static/examples/autoescape.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/static/examples/autoscroll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/static/examples/button-on-right.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/static/examples/custom_html.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/static/examples/drag-outside.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/static/examples/drag_and_drop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/static/examples/icon_buttons.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/static/examples/load_json_data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/static/examples/load_json_data_from_server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/static/examples/load_on_demand.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/static/examples/multiple_select.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/static/examples/right-to-left.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/static/examples/save_state.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/test/test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/test/test_jquery_1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/test/test_jquery_2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/tree.jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/tsconfig.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/tslint.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/typings.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/typings/globals/jquery-mockjax/index.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/typings/globals/jquery-mockjax/typings.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/typings/globals/jquery/index.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/typings/globals/jquery/typings.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/typings/globals/qunit/index.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/typings/globals/qunit/typings.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/typings/index.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/webpack.config.base.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/webpack.config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/jqTree/webpack.config.production.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/js/drag-outside.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/js/jquery.mockjax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/js/materialize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/js/materialize.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/js/npm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/js/tree.jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradlew" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Bootstrap_UI_gb/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Bootstrap_UI_gb/css/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Bootstrap_UI_gb/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Bootstrap_UI_gb/css/bootstrap-theme.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Bootstrap_UI_gb/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Bootstrap_UI_gb/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Bootstrap_UI_gb/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Bootstrap_UI_gb/css/bootstrap.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Bootstrap_UI_gb/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Bootstrap_UI_gb/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Bootstrap_UI_gb/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Bootstrap_UI_gb/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Bootstrap_UI_gb/js/npm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/settings.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/css/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/css/bootstrap-theme.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/css/bootstrap.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/css/jqtree.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/css/materialize.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/css/materialize.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/.editorconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_config.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/01_general.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/02_introduction.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/03_features.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/04_demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/05_requirements.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/06_downloads.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/07_tutorial.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/08_examples.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/09_usecases.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/10_changelog.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/11_options.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/12_autoescape.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/13_autoopen.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/14_buttonleft.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/15_closedicon.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/16_data.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/17_datafilter.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/18_data-url.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/19_draganddrop.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/20_keyboardsupport.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/21_oncanmove.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/22_oncanmoveto.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/23_oncanselectnode.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/24_oncreateli.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/25_ondragmove.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/26_ondragstop.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/27_onismovehandle.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/28_onloadfailed.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/29_onloading.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/30_openedicon.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/31_openfolderdelay.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/32_rtl.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/33_savestate.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/34_selectable.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/35_slide.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/36_tabindex.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/37_usecontextmenu.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/38_addparentnode.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/39_functions.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/40_addnodeafter.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/41_addnodebefore.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/42_appendnode.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/43_closenode.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/44_destroy.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/45_getnodebycallback.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/46_getnodebyid.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/47_getnodebyhtmlelement.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/48_getselectednode.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/49_getstate.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/50_gettree.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/51_loaddata.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/52_loaddatafromurl.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/53_movedown.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/54_movenode.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/55_moveup.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/56_opennode.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/57_prependnode.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/58_reload.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/59_removenode.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/60_selectnode.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/61_scrolltonode.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/62_setoption.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/63_setstate.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/64_toggle.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/65_tojson.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/66_updatenode.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/67_events.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/68_tree-click.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/69_tree-close.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/70_tree-contextmenu.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/71_tree-dblclick.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/72_tree-init.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/73_tree-move.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/74_tree-open.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/75_tree-select.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/76_multiple-selection.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/77_add-to-selection.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/78_get-selected-nodes.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/79_is-node-selected.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/80_remove-from-selection.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/81_node-functions.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/82_children.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/83_getdata.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/84_getlevel.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/85_getnextnode.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/86_getnextsibling.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/87_getpreviousnode.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/88_getprevioussibling.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/89_parent.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/insert.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_entries/renumber.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_examples/01_load_json_data.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_examples/02_load_json_data_from_server.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_examples/03_drag_and_drop.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_examples/04_save_state.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_examples/05_load_on_demand.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_examples/06_autoescape.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_examples/07_autoscroll.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_examples/08_multiple_select.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_examples/09_custom_html.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_examples/10_icon_buttons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_examples/11_right-to-left.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_examples/12_button_on_right.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_examples/13_drag_outside.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_layouts/base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_layouts/frontpage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/_layouts/page.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/build/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/build/test.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/build/tree.jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/build/tree.jquery.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/devserver.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/jqtree.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/jqtree.jquery.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/jqtree.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/karma.conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/lib/drag_and_drop_handler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/lib/elements_renderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/lib/imouse_widget.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/lib/itree_widget.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/lib/key_handler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/lib/mouse.widget.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/lib/node.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/lib/node_element.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/lib/save_state_handler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/lib/scroll_handler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/lib/select_node_handler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/lib/simple.widget.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/lib/tree.jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/lib/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/lib/version.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/phantomjs/runner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/phantomjs/server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/sitemap.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/src/drag_and_drop_handler.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/src/elements_renderer.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/src/header.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/src/imouse_widget.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/src/itree_widget.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/src/key_handler.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/src/mouse.widget.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/src/node.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/src/node_element.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/src/save_state_handler.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/src/scroll_handler.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/src/select_node_handler.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/src/simple.widget.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/src/tree.jquery.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/src/tree.jquery.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/src/util.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/src/version.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/src_test/test.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/src_test/test_jqtree.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/src_test/test_tree.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/src_test/test_util.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/src_test/utils_for_test.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/static/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/static/bower_components/blanket/dist/qunit/blanket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/static/bower_components/bootstrap/dist/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/static/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/static/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/static/bower_components/bootstrap/dist/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/static/bower_components/fontawesome/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/static/bower_components/fontawesome/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/static/bower_components/jquery-1/dist/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/static/bower_components/jquery-1/dist/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/static/bower_components/jquery-2/dist/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/static/bower_components/jquery-2/dist/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/static/bower_components/jquery-mockjax/dist/jquery.mockjax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/static/bower_components/jquery/dist/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/static/bower_components/jquery/dist/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/static/bower_components/json3/lib/json3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/static/bower_components/pygments/css/monokai.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/static/bower_components/qunit/qunit/qunit.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/static/bower_components/qunit/qunit/qunit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/static/devserver.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/static/documentation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/static/documentation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/static/example.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/static/example.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/static/example_data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/static/examples/autoescape.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/static/examples/autoscroll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/static/examples/button-on-right.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/static/examples/custom_html.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/static/examples/drag-outside.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/static/examples/drag_and_drop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/static/examples/icon_buttons.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/static/examples/load_json_data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/static/examples/load_json_data_from_server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/static/examples/load_on_demand.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/static/examples/multiple_select.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/static/examples/right-to-left.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/static/examples/save_state.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/test/test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/test/test_jquery_1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/test/test_jquery_2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/tree.jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/tsconfig.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/tslint.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/typings.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/typings/globals/jquery-mockjax/index.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/typings/globals/jquery-mockjax/typings.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/typings/globals/jquery/index.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/typings/globals/jquery/typings.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/typings/globals/qunit/index.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/typings/globals/qunit/typings.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/typings/index.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/webpack.config.base.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/webpack.config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jqTree/webpack.config.production.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/js/drag-outside.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/js/jquery.mockjax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/js/materialize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/js/materialize.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/js/npm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/js/tree.jquery.js" />
+    </list>
+    <ignored path="Bootstrap_UI_gb.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <PATH>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="Bootstrap_UI_gb" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
+              </PATH_ELEMENT>
+            </PATH>
+            <PATH>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="Bootstrap_UI_gb" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="Tasks" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode" />
+              </PATH_ELEMENT>
+            </PATH>
+            <PATH>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="Bootstrap_UI_gb" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="Tasks" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="build" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode$1" />
+              </PATH_ELEMENT>
+            </PATH>
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Bootstrap_UI_gb" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="382" column="62" lean-forward="true" selection-start-line="382" selection-start-column="62" selection-end-line="382" selection-end-column="62" />
+              <folding>
+                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="drag-outside.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/jqTree/static/examples/drag-outside.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>navbar</find>
+      <find>value</find>
+      <find>jquery.min.js&quot;&gt;&lt;/script&gt;</find>
+      <find>jqtree.css</find>
+      <find>// lhTree widget</find>
+      <find>card blueprint sticky-action</find>
+      <find>tree1</find>
+      <find>i</find>
+      <find>label</find>
+      <find>Confirmation</find>
+      <find>jqTree/build/tree.jquery.js</find>
+      <find>handleMove</find>
+      <find>drag_and_drop</find>
+      <find>modalBtn</find>
+      <find>modal</find>
+      <find>tree2</find>
+      <find>close</find>
+      <find>Close</find>
+      <find>btn btn-info btn-fill pull-right</find>
+      <find>glyphicon glyphicon-search</find>
+      <find>targetDiv</find>
+      <find>drag</find>
+      <find>targetCollisionDiv1</find>
+      <find>data</find>
+      <find>the node is over the target div</find>
+      <find>$.mockjax</find>
+      <find>onDragMove</find>
+      <find>modalPopupCloseBtn</find>
+      <find>dropdown1</find>
+      <find>Rules</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="tasksExpandState">
+      <map>
+        <entry key="" value="true" />
+        <entry key="Bootstrap_UI_gb/" value="true" />
+      </map>
+    </option>
+    <option name="recentTasks">
+      <list>
+        <ExternalTaskExecutionInfo>
+          <option name="executorId" value="Run" />
+          <option name="settings">
+            <ExternalSystemSettings>
+              <option name="externalProjectPath" value="$PROJECT_DIR$" />
+              <option name="externalSystemIdString" value="GRADLE" />
+              <option name="taskNames">
+                <list>
+                  <option value="build" />
+                </list>
+              </option>
+            </ExternalSystemSettings>
+          </option>
+        </ExternalTaskExecutionInfo>
+      </list>
+    </option>
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="Bootstrap_UI_gb" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="Bootstrap_UI_gb" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="availableTasks">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles classes 'main'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes resources 'main:resources'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles Java source 'test:java'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes resources 'test:resources'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles classes 'test'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles Java source 'main:java'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="3011232032397" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="563393709" />
+      </map>
+    </option>
+    <option name="projectBuildClasspath">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <ExternalProjectBuildClasspathPojo>
+              <option name="modulesBuildClasspath">
+                <map>
+                  <entry key="$PROJECT_DIR$">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="name" value="Bootstrap_UI_gb" />
+              <option name="projectBuildClasspath">
+                <list>
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/src/announce" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/src/antlr" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/src/base-services" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/src/base-services-groovy" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/src/build-comparison" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/src/build-init" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/src/cli" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/src/code-quality" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/src/core" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/src/core-impl" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/src/cpp" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/src/diagnostics" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/src/ear" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/src/ide" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/src/internal-integ-testing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/src/internal-testing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/src/ivy" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/src/jacoco" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/src/javascript" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/src/jetty" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/src/language-base" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/src/language-jvm" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/src/launcher" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/src/maven" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/src/messaging" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/src/model-core" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/src/model-groovy" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/src/native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/src/open-api" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/src/osgi" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/src/plugin-development" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/src/plugin-use" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/src/plugins" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/src/publish" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/src/reporting" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/src/resources" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/src/resources-http" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/src/scala" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/src/signing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/src/sonar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/src/tooling-api" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/src/ui" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/src/wrapper" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/lib/ant-1.9.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/lib/ant-launcher-1.9.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/lib/gradle-base-services-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/lib/gradle-base-services-groovy-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/lib/gradle-cli-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/lib/gradle-core-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/lib/gradle-docs-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/lib/gradle-launcher-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/lib/gradle-messaging-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/lib/gradle-model-core-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/lib/gradle-model-groovy-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/lib/gradle-native-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/lib/gradle-open-api-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/lib/gradle-resources-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/lib/gradle-tooling-api-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/lib/gradle-ui-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/lib/gradle-wrapper-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/lib/groovy-all-2.3.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/lib/plugins/ant-antlr-1.9.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/lib/plugins/gradle-announce-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/lib/plugins/gradle-antlr-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/lib/plugins/gradle-build-comparison-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/lib/plugins/gradle-build-init-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/lib/plugins/gradle-code-quality-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/lib/plugins/gradle-core-impl-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/lib/plugins/gradle-cpp-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/lib/plugins/gradle-diagnostics-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/lib/plugins/gradle-ear-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/lib/plugins/gradle-ide-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/lib/plugins/gradle-ivy-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/lib/plugins/gradle-jacoco-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/lib/plugins/gradle-javascript-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/lib/plugins/gradle-jetty-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/lib/plugins/gradle-language-base-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/lib/plugins/gradle-language-jvm-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/lib/plugins/gradle-maven-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/lib/plugins/gradle-osgi-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/lib/plugins/gradle-plugin-development-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/lib/plugins/gradle-plugin-use-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/lib/plugins/gradle-plugins-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/lib/plugins/gradle-publish-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/lib/plugins/gradle-reporting-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/lib/plugins/gradle-resources-http-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/lib/plugins/gradle-scala-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/lib/plugins/gradle-signing-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/lib/plugins/gradle-sonar-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
+                  <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
+                </list>
+              </option>
+            </ExternalProjectBuildClasspathPojo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/resources/css/materialize.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/js/jquery.min.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/js/drag-outside.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/index.html" />
+        <option value="$PROJECT_DIR$/gitignore.txt" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Bootstrap_UI_gb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bootstrap_UI_gb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Bootstrap_UI_gb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bootstrap_UI_gb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Bootstrap_UI_gb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bootstrap_UI_gb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Bootstrap_UI_gb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bootstrap_UI_gb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17089844" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="options.lastSelected" value="configurable.group.editor" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="recentsLimit" value="5" />
+    <property name="editorconfig.notification" value="Applied .editorconfig settings" />
+    <property name="FullScreen" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="add_unversioned_files" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace1\Bootstrap_UI_gb\src\main\resources\js" />
+      <recent name="D:\workspace1\Bootstrap_UI_gb\src\main\resources\css" />
+      <recent name="D:\workspace1\Bootstrap_UI_gb\src\main\resources\image" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace1\Bootstrap_UI_gb\src\main\resources\js" />
+      <recent name="D:\workspace1\Bootstrap_UI_gb\src\main\resources" />
+      <recent name="D:\workspace1\Bootstrap_UI_gb\src\main\resources\fonts" />
+      <recent name="D:\workspace1\Bootstrap_UI_gb\src\main\resources\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="false" name="Bootstrap_UI_gb [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <RunnerSettings RunnerId="ExternalSystemTaskRunner" />
+      <ConfigurationWrapper RunnerId="ExternalSystemTaskRunner" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AntRunConfiguration" factoryName="Ant Target">
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="BatchConfigurationType" factoryName="Batch">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="scalaCoverage" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="scalaCoverage" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="scalaCoverage" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da942593-3ba1-4a66-9345-4c2cb553355a" name="Default" comment="" />
+      <created>1505479295940</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1505479295940</updated>
+      <workItem from="1505479301184" duration="644000" />
+      <workItem from="1506068079352" duration="8343000" />
+      <workItem from="1506936520902" duration="158000" />
+      <workItem from="1506936797210" duration="531000" />
+      <workItem from="1506937343242" duration="761000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="10437000" />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24236038" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3372591" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35801104" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.59314775" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21748401" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869378" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11886994" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/jqTree/src/tree.jquery.d.ts" />
+      </list>
+    </option>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.scss" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jqTree/static/examples/drag-outside.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jqTree/static/examples/drag-outside.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jqTree/static/examples/drag-outside.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="26" column="7" lean-forward="false" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/css/bootstrap-theme.css.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/js/npm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/js/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fonts/glyphicons-halflings-regular.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="23" column="46" lean-forward="false" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jqTree/static/examples/drag-outside.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitignore.txt" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="382" column="62" lean-forward="true" selection-start-line="382" selection-start-column="62" selection-end-line="382" selection-end-column="62" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Bootstrap_UI_gb_main|Bootstrap_UI_gb</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: junit:junit:4.11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="WEB-INF/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+<div class="container">
+    <div class="row"><h1>Bootstrap Tree Menu Example</h1></div>
+</div>
+
+<div class="row">
+    <div class="span3">
+        <div class="well">
+            <div>
+                <ul class="nav nav-list">
+                    <li><label class="tree-toggle nav-header">Bootstrap</label>
+                        <ul class="nav nav-list tree">
+                            <li><a href="#">JavaScript</a></li>
+                            <li><a href="#">CSS</a></li>
+                            <li><label class="tree-toggle nav-header">Buttons</label>
+                                <ul class="nav nav-list tree">
+                                    <li><a href="#">Colors</a></li>
+                                    <li><a href="#">Sizes</a></li>
+                                    <li><label class="tree-toggle nav-header">Forms</label>
+                                        <ul class="nav nav-list tree">
+                                            <li><a href="#">Horizontal</a></li>
+                                            <li><a href="#">Vertical</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="divider"></li>
+                    <li><label class="tree-toggle nav-header">Responsive</label>
+                        <ul class="nav nav-list tree">
+                            <li><a href="#">Overview</a></li>
+                            <li><a href="#">CSS</a></li>
+                            <li><label class="tree-toggle nav-header">Media Queries</label>
+                                <ul class="nav nav-list tree">
+                                    <li><a href="#">Text</a></li>
+                                    <li><a href="#">Images</a></li>
+                                    <li><label class="tree-toggle nav-header">Mobile Devices</label>
+                                        <ul class="nav nav-list tree">
+                                            <li><a href="#">iPhone</a></li>
+                                            <li><a href="#">Samsung</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><label class="tree-toggle nav-header">Coding</label>
+                                <ul class="nav nav-list tree">
+                                    <li><a href="#">JavaScript</a></li>
+                                    <li><a href="#">jQuery</a></li>
+                                    <li><label class="tree-toggle nav-header">HTML DOM</label>
+                                        <ul class="nav nav-list tree">
+                                            <li><a href="#">DOM Elements</a></li>
+                                            <li><a href="#">Recursive</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="WEB-INF/js/bootstrap.min.js"></script>
+
+<script>
+$('.tree-toggle').click(function () {
+    $(this).parent().children('ul.tree').toggle(200);
+});
+
+$(function(){
+    $('.tree-toggle').parent().children('ul.tree').toggle(200);
+})
+</script>
+
+</body>
+</html>
