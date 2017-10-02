@@ -96,7 +96,7 @@
 </nav>
 
 <!-- Button HTML (to Trigger Modal) -->
-<a id="modalBtn" href="#myModal" role="button" class="btn btn-small btn-primary" data-toggle="modal">Launch Demo Modal</a>
+<a id="modalBtn" href="#myModal" role="button" class="btn btn-small btn-primary" data-toggle="modal">Demo Modal</a>
 
 <!-- Main container -->
 <div class="container">
@@ -420,9 +420,9 @@
         function isOverTarget(e) {
             console.log("isOverTarget() called");
             return ( e.clientX > targetDiv.position().left &&
-            e.clientX < targetDiv.position().left + targetDiv.width() &&
-            e.clientY > targetDiv.position().top &&
-            e.clientY < targetDiv.position().top + targetDiv.height());
+                e.clientX < targetDiv.position().left + targetDiv.width() &&
+                e.clientY > targetDiv.position().top &&
+                e.clientY < targetDiv.position().top + targetDiv.height());
         }
 
         function handleMove(node, e) {
@@ -430,13 +430,14 @@
         }
 
         function handleMove(node, e) {
-            console.log("handleMove() called");
+            alert("handleMove() called");
             if (isOverTarget(e)) {
                 console.log("the node is over the target div");
             }
         }
 
         function handleStop(node, e) {
+            alert("handleStop() called");
             console.log("handleStop() called");
             console.log("stopped over target: ", isOverTarget(e));
         }
@@ -467,6 +468,7 @@
     });
 
     $('.tree-toggle').click(function () {
+        alert("tree-toggle");
         $(this).parent().children('ul.tree').toggle(200);
     });
 
@@ -488,23 +490,23 @@
 
     // --------- Tree select handlers ----------
     $('#tree1, #tree2').bind(
-            'tree.select',
-            function(event) {
-                if (event.node) {
-                    var selectedNode = event.node;
-                    console.log("selected node:" + selectedNode);
-                    // todo: add handling of selecting node
-                }
+        'tree.select',
+        function (event) {
+            if (event.node) {
+                var selectedNode = event.node;
+                console.log("selected node:" + selectedNode);
+                // todo: add handling of selecting node
             }
+        }
     );
 
     $('#tree1, #tree2').bind(
-            'tree.contextmenu',
-            function(event) {
-                var clickedNode = event.node;
-                console.log("selected node:" + clickedNode);
-                // todo: add handling of clickedNode context menu
-            }
+        'tree.contextmenu',
+        function (event) {
+            var clickedNode = event.node;
+            console.log("selected node:" + clickedNode);
+            // todo: add handling of clickedNode context menu
+        }
     );
 
     // ----------Buttons handlers -----------
@@ -551,11 +553,39 @@
     $(document).ready(function () {
         // apply a change event
         $('#xRulesDropdown').change(function () {
-            console.log("xRulesDropdown called");
+            alert("xRulesDropdown called");
             // update textArea with the currently selected value
             $('#xRulesTextArea').val($(this).val());
         });
     });
+
+    $('#xRulesDropdown').change(function () {
+        alert("xRulesDropdown");
+        $('#xRulesTextArea').attr('val', $('#xRulesDropdown').val());
+    });
+
+    $(document).ready(function () {
+        $('#xRulesDropdown').change(function () {
+            $('#xRulesTextArea').html($("#selectMe option:selected").text());
+        })
+    });
+
+    // todo: cprrect dropdown logic
+    $('#xRulesDropdown').on('change', function () {
+        var e = $(this).val();
+        $.each('#xRulesDropdown', function (key, val) {
+            if (e == val.value) {
+                $('#xRulesTextArea').val(val.areatext);
+            }
+        });
+    });
+
+    $('#centralPanelSaveBtn').click(function () {
+        alert("clicked");
+//        $('#xRulesTextArea').append("hello"); //todo: correct version
+        $('#xRulesTextArea').append($('#xRulesDropdown').text());
+    });
+
 
 </script>
 
