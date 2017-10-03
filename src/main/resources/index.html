@@ -152,10 +152,20 @@
                             </li>
                         </ul>
                     </div>
-                    <div id="targetDiv">drag here</div>
+                    <!-- Chips for used x-rules -->
+                    <!--<div id="targetDiv">-->
+                        <!--<div class="chips">test<i class="close material-icons">close</i></div>-->
+                        <!--<div class="chips chips-initial">test1<i class="close material-icons">close</i></div>-->
+                        <!--<div class="chips chips-placeholder">test2<i class="close material-icons">close</i></div>-->
+                        <!--<div class="chips chips-autocomplete">test3<i class="close material-icons">close</i></div>-->
+                    <!--</div>-->
                 </div>
                 <div class="card-action">
                     <a href="#modal1" class="modal-trigger">Learn more</a>
+                </div>
+                <!-- chips test -->
+                <div id="targetDiv">
+                    <div class="chips chips-initial"><i class="close material-icons">close</i></div>
                 </div>
             </div>
         </div>
@@ -571,6 +581,32 @@
         // $('#xRulesTextArea').append(" ");
         $('#xRulesTextArea').empty();
         $('#xRulesTextArea').append($(this).text());
+    });
+
+    // todo: load Rules from file
+    $('.chips').material_chip();
+
+    $('.chips-initial').material_chip({
+        data: [{
+            tag: 'Rule1',
+        }, {
+            tag: 'Rule2',
+        }, {
+            tag: 'Rule3',
+        }],
+    });
+
+    // chips xRules handlers
+    $('.chips').on('chip.add', function(e, chip){
+        // todo...
+    });
+
+    $('.chips').on('chip.delete', function(e, chip){
+        // todo...
+    });
+
+    $('.chips').on('chip.select', function(e, chip){
+        // todo...
     });
 
 </script>
