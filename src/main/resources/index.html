@@ -23,6 +23,10 @@
 
     <!--Some style-->
     <style type="text/css">
+        .body {
+            background: rgba(128, 128, 128, 0.1);
+        }
+
         #targetDiv {
             height: 50px;
             width: 300px;
@@ -50,7 +54,7 @@
     <!-- Google Material Icons -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
-<body style="background: rgba(128, 128, 128, 0.1);">
+<body>
 
 <nav class="navbar navbar-default">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -154,10 +158,10 @@
                     </div>
                     <!-- Chips for used x-rules -->
                     <!--<div id="targetDiv">-->
-                        <!--<div class="chips">test<i class="close material-icons">close</i></div>-->
-                        <!--<div class="chips chips-initial">test1<i class="close material-icons">close</i></div>-->
-                        <!--<div class="chips chips-placeholder">test2<i class="close material-icons">close</i></div>-->
-                        <!--<div class="chips chips-autocomplete">test3<i class="close material-icons">close</i></div>-->
+                    <!--<div class="chips">test<i class="close material-icons">close</i></div>-->
+                    <!--<div class="chips chips-initial">test1<i class="close material-icons">close</i></div>-->
+                    <!--<div class="chips chips-placeholder">test2<i class="close material-icons">close</i></div>-->
+                    <!--<div class="chips chips-autocomplete">test3<i class="close material-icons">close</i></div>-->
                     <!--</div>-->
                 </div>
                 <div class="card-action">
@@ -403,211 +407,13 @@
 <script src="js/jquery.mockjax.js"></script>
 <script src="js/drag-outside.js"></script>
 
+<!--my imported scripts -->
+<script src="js/my-button-handler-logic.js"></script>
+<script src="js/my-jqtree-logic.js"></script>
+
 <script>
 
-    // -------- test data for JqTree ---------
-    var data = [
-        {
-            name: 'node1', id: 1,
-            children: [
-                {name: 'child1', id: 2},
-                {name: 'child2', id: 3}
-            ]
-        }, {
-            name: 'node2', id: 4,
-            children: [
-                {name: 'child3', id: 5}
-            ]
-        }
-    ];
 
-    // ------------ JqTree dnd --------------
-
-    $(function () {
-        var targetDiv = $("#targetDiv");
-
-        function isOverTarget(e) {
-            console.log("isOverTarget() called");
-            return ( e.clientX > targetDiv.position().left &&
-                e.clientX < targetDiv.position().left + targetDiv.width() &&
-                e.clientY > targetDiv.position().top &&
-                e.clientY < targetDiv.position().top + targetDiv.height());
-        }
-
-        function handleMove(node, e) {
-            alert("handleMove() called");
-            if (isOverTarget(e)) {
-                console.log("the node is over the target div");
-            }
-        }
-
-        function handleStop(node, e) {
-            alert("handleStop() called");
-            console.log("handleStop() called");
-            console.log("stopped over target: ", isOverTarget(e));
-        }
-
-        $("#tree1").tree({
-            dragAndDrop: true,
-            onDragMove: handleMove,
-            onDragStop: handleStop
-        });
-
-        $("#tree2").tree({
-            dragAndDrop: true,
-            onDragMove: handleMove,
-            onDragStop: handleStop
-        });
-    });
-
-    $('#tree1').tree({
-        data: data,
-        autoOpen: true,
-        dragAndDrop: true
-    });
-
-    $('#tree2').tree({
-        data: data,
-        autoOpen: true,
-        dragAndDrop: true
-    });
-
-    $('.tree-toggle').click(function () {
-        alert("tree-toggle");
-        $(this).parent().children('ul.tree').toggle(200);
-    });
-
-    $(function () {
-        $('.tree-toggle').parent().children('ul.tree').toggle(200);
-    });
-
-    // dropdown button handler
-    $('.dropdown-button').dropdown({
-        inDuration: 300,
-        outDuration: 225,
-        constrainWidth: false, // Does not change width of dropdown to that of the activator
-        hover: true, // Activate on hover
-        gutter: 0, // Spacing from edge
-        belowOrigin: false, // Displays dropdown below the button
-        alignment: 'left', // Displays dropdown with edge aligned to the left of button
-        stopPropagation: false // Stops event propagation
-    });
-
-    // --------- Tree select handlers ----------
-    $('#tree1, #tree2').bind(
-        'tree.select',
-        function (event) {
-            if (event.node) {
-                var selectedNode = event.node;
-                console.log("selected node:" + selectedNode);
-                // todo: add handling of selecting node
-            }
-        }
-    );
-
-    $('#tree1, #tree2').bind(
-        'tree.contextmenu',
-        function (event) {
-            var clickedNode = event.node;
-            console.log("selected node:" + clickedNode);
-            // todo: add handling of clickedNode context menu
-        }
-    );
-
-    // ----------Buttons handlers -----------
-
-    $('.modalBtn').click(function () {
-        $('.modal').modal();
-    });
-
-    $('.btn .btn-info .btn-fill .pull-right').click(function () {
-        console.log("Save click");
-    });
-
-    $('.modal-trigger').click(function () {
-        console.log("Learn more clicked");
-    });
-
-    $('#modalPopupCloseBtn').click(function () {
-        console.log("Close clicked");
-    });
-
-    $('#modalPopupSaveBtn').click(function () {
-        console.log("Save changes clicked");
-    });
-
-    $('#navBarFormSearchBtn').click(function () {
-        console.log("Save central panel clicked");
-    });
-
-    $('#someId').click(function () {
-        console.log("some message");
-    });
-
-    // ---------- TextArea_select_using -----------
-
-    function sendToArea() {
-        document.getElementById("xRulesTextArea").value = "stub"; //document.getElementById("textboxId").value
-    }
-
-    // jQuery code to populate the textBox based on selection:
-    $(document).ready(function () {
-        // apply a change event
-        $('#xRulesDropdown').change(function () {
-            alert("xRulesDropdown called");
-            // update textArea with the currently selected value
-            $('#xRulesTextArea').val($(this).val());
-        });
-    });
-
-    $('#xRulesDropdown').change(function () {
-        alert("xRulesDropdown");
-        $('#xRulesTextArea').attr('val', $('#xRulesDropdown').val());
-    });
-
-    $(document).ready(function () {
-        $('#xRulesDropdown').change(function () {
-            $('#xRulesTextArea').html($("#selectMe option:selected").text());
-        })
-    });
-
-    $('#centralPanelProcessBtn').click(function () {
-        // todo: process existing x-rules
-    });
-
-    $('.dropdown-content li a').click(function () {
-        // console.log("click on button: " + $(this).text());
-        // concatenate with whitespace
-        // $('#xRulesTextArea').append(" ");
-        $('#xRulesTextArea').empty();
-        $('#xRulesTextArea').append($(this).text());
-    });
-
-    // todo: load Rules from file
-    $('.chips').material_chip();
-
-    $('.chips-initial').material_chip({
-        data: [{
-            tag: 'Rule1'
-        }, {
-            tag: 'Rule2'
-        }, {
-            tag: 'Rule3'
-        }]
-    });
-
-    // chips xRules handlers
-    $('.chips').on('chip.add', function(e, chip){
-        console.log("1");
-    });
-
-    $('.chips').on('chip.delete', function(e, chip){
-        console.log("2");
-    });
-
-    $('.chips').on('chip.select', function(e, chip){
-        console.log("3");
-    });
 
 </script>
 
