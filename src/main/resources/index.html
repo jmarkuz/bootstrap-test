@@ -193,7 +193,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <button id="centralPanelSaveBtn" type="submit" class="btn btn-info btn-fill pull-right">
+                            <button id="centralPanelProcessBtn" type="submit" class="btn btn-info btn-fill pull-right">
                                 Process
                             </button>
                             <div class="clearfix"></div>
@@ -414,7 +414,6 @@
     // ------------ JqTree dnd --------------
 
     $(function () {
-        console.log("root function called");
         var targetDiv = $("#targetDiv");
 
         function isOverTarget(e) {
@@ -527,10 +526,6 @@
         console.log("Save changes clicked");
     });
 
-    $('#centralPanelSaveBtn').click(function () {
-        console.log("Save central panel clicked");
-    });
-
     $('#navBarFormSearchBtn').click(function () {
         console.log("Save central panel clicked");
     });
@@ -566,27 +561,17 @@
         })
     });
 
-    // todo: cprrect dropdown logic
-    $('#xRulesDropdown').on('change', function () {
-        var e = $(this).val();
-        $.each('#xRulesDropdown', function (key, val) {
-            if (e == val.value) {
-                $('#xRulesTextArea').val(val.areatext);
-            }
-        });
+    $('#centralPanelProcessBtn').click(function () {
+        // todo: process existing x-rules
     });
 
-    $('#centralPanelSaveBtn').click(function () {
-        alert("clicked");
-//        $('#xRulesTextArea').append("hello"); //todo: correct version
-        $('#xRulesTextArea').append($('#xRulesDropdown').text());
+    $('.dropdown-content li a').click(function () {
+        // console.log("click on button: " + $(this).text());
+        // concatenate with whitespace
+        // $('#xRulesTextArea').append(" ");
+        $('#xRulesTextArea').empty();
+        $('#xRulesTextArea').append($(this).text());
     });
-
-    // add all content from dropdown button
-    $('#xRulesDropdown').click(function(v){
-        $('#xRulesTextArea').append($('#xRulesDropdown').text());
-    });
-
 
 </script>
 
