@@ -588,25 +588,25 @@
 
     $('.chips-initial').material_chip({
         data: [{
-            tag: 'Rule1',
+            tag: 'Rule1'
         }, {
-            tag: 'Rule2',
+            tag: 'Rule2'
         }, {
-            tag: 'Rule3',
-        }],
+            tag: 'Rule3'
+        }]
     });
 
     // chips xRules handlers
     $('.chips').on('chip.add', function(e, chip){
-        // todo...
+        console.log("1");
     });
 
     $('.chips').on('chip.delete', function(e, chip){
-        // todo...
+        console.log("2");
     });
 
     $('.chips').on('chip.select', function(e, chip){
-        // todo...
+        console.log("3");
     });
 
 </script>
