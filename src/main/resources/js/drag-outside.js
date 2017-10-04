@@ -1,10 +1,11 @@
-$.mockjax({
+// for testing purpose
+/*$.mockjax({
     url: "*",
     response: function(options) {
         this.responseText = ExampleData.example_data;
     },
     responseTime: 0
-});
+});*/
 
 $(function() {
     var targetCollisionDiv = $("#targetDiv");
