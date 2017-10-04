@@ -10,9 +10,6 @@ $('.dropdown-button').dropdown({
     stopPropagation: false // Stops event propagation
 });
 
-
-// ----------Buttons handlers -----------
-
 $('.modalBtn').click(function () {
     $('.modal').modal();
 });

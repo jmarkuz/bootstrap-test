@@ -1,4 +1,3 @@
-
 // -------- test data for JqTree ---------
 var data = [
     {
@@ -30,6 +29,7 @@ $(function () {
 
     function handleMove(node, e) {
         alert("handleMove() called");
+        console.log("handleMove() called");
         if (isOverTarget(e)) {
             console.log("the node is over the target div");
         }
@@ -41,26 +41,14 @@ $(function () {
         console.log("stopped over target: ", isOverTarget(e));
     }
 
-    $("#tree1").tree({
-        dragAndDrop: true,
-        onDragMove: handleMove,
-        onDragStop: handleStop
-    });
-
-    $("#tree2").tree({
+    $("#tree1, #tree2").tree({
         dragAndDrop: true,
         onDragMove: handleMove,
         onDragStop: handleStop
     });
 });
 
-$('#tree1').tree({
-    data: data,
-    autoOpen: true,
-    dragAndDrop: true
-});
-
-$('#tree2').tree({
+$('#tree1, #tree2').tree({
     data: data,
     autoOpen: true,
     dragAndDrop: true
@@ -81,7 +69,7 @@ $('#tree1, #tree2').bind(
     function (event) {
         if (event.node) {
             var selectedNode = event.node;
-            console.log("selected node:" + selectedNode);
+            console.log("selected node: " + selectedNode);
             // todo: add handling of selecting node
         }
     }
@@ -91,7 +79,7 @@ $('#tree1, #tree2').bind(
     'tree.contextmenu',
     function (event) {
         var clickedNode = event.node;
-        console.log("selected node:" + clickedNode);
+        console.log("contextmenu: " + clickedNode);
         // todo: add handling of clickedNode context menu
     }
 );
