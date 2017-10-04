@@ -1,0 +1,26 @@
+.body {
+    background: rgba(128, 128, 128, 0.1);
+}
+
+#targetDiv, #targetDiv1 {
+    height: 50px;
+    width: 300px;
+    background-color: blanchedalmond;
+}
+
+.scroll-container {
+    height: 200px;
+    overflow-y: scroll;
+    user-select: none;
+}
+
+.dropdown-content {
+    width: auto !important;
+}
+
+.page-footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+}
