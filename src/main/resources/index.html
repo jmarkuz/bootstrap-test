@@ -33,7 +33,7 @@
             background-color: blanchedalmond;
         }
 
-        #scroll-container {
+        .scroll-container {
             height: 200px;
             overflow-y: scroll;
             user-select: none;
@@ -110,58 +110,60 @@
                 <div class="card-content">
                     <span class="card-title grey-text text-darken-4">Input File</span>
                     <!-- add jTree-->
-                    <div id="tree2">
-                        <ul class="jqtree_common jqtree-tree" role="tree">
-                            <li class="jqtree_common jqtree-folder jqtree-closed jqtree-selected"
-                                aria-selected="true">
-                                <div class="jqtree-element jqtree_common"><a
-                                        class="jqtree-toggler jqtree_common jqtree-toggler-left jqtree-closed"
+                    <div class="scroll-container">
+                        <div id="tree1" data-url="test-date.json">
+                            <ul class="jqtree_common jqtree-tree" role="tree">
+                                <li class="jqtree_common jqtree-folder jqtree-closed jqtree-selected"
+                                    aria-selected="true">
+                                    <div class="jqtree-element jqtree_common"><a
+                                            class="jqtree-toggler jqtree_common jqtree-toggler-left jqtree-closed"
 
-                                        aria-hidden="true">►</a><span
-                                        class="jqtree-title jqtree_common jqtree-title-folder" role="treeitem"
-                                        aria-level="1" aria-selected="false" aria-expanded="false"
-                                        tabindex="0">node1</span></div>
-                                <ul class="jqtree_common " role="group" style="display: none;">
-                                    <li class="jqtree_common">
-                                        <div class="jqtree-element jqtree_common"><span
-                                                class="jqtree-title jqtree_common" role="treeitem" aria-level="2"
-                                                aria-selected="false"
-                                                aria-expanded="false">child1</span></div>
-                                    </li>
-                                    <li class="jqtree_common">
-                                        <div class="jqtree-element jqtree_common"><span
-                                                class="jqtree-title jqtree_common" role="treeitem" aria-level="2"
-                                                aria-selected="false"
-                                                aria-expanded="false">child2</span></div>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="jqtree_common jqtree-folder jqtree-closed"
-                                aria-selected="false">
-                                <div class="jqtree-element jqtree_common"><a
-                                        class="jqtree-toggler jqtree_common jqtree-toggler-left jqtree-closed"
+                                            aria-hidden="true">►</a><span
+                                            class="jqtree-title jqtree_common jqtree-title-folder" role="treeitem"
+                                            aria-level="1" aria-selected="false" aria-expanded="false"
+                                            tabindex="0">node1</span></div>
+                                    <ul class="jqtree_common " role="group" style="display: none;">
+                                        <li class="jqtree_common">
+                                            <div class="jqtree-element jqtree_common"><span
+                                                    class="jqtree-title jqtree_common" role="treeitem" aria-level="2"
+                                                    aria-selected="false"
+                                                    aria-expanded="false">child1</span></div>
+                                        </li>
+                                        <li class="jqtree_common">
+                                            <div class="jqtree-element jqtree_common"><span
+                                                    class="jqtree-title jqtree_common" role="treeitem" aria-level="2"
+                                                    aria-selected="false"
+                                                    aria-expanded="false">child2</span></div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="jqtree_common jqtree-folder jqtree-closed"
+                                    aria-selected="false">
+                                    <div class="jqtree-element jqtree_common"><a
+                                            class="jqtree-toggler jqtree_common jqtree-toggler-left jqtree-closed"
 
-                                        aria-hidden="true">►</a><span
-                                        class="jqtree-title jqtree_common jqtree-title-folder" role="treeitem"
-                                        aria-level="1" aria-selected="false"
-                                        aria-expanded="false">node2</span></div>
-                                <ul class="jqtree_common " role="group" style="display: none;">
-                                    <li class="jqtree_common">
-                                        <div class="jqtree-element jqtree_common"><span
-                                                class="jqtree-title jqtree_common" role="treeitem" aria-level="2"
-                                                aria-selected="false"
-                                                aria-expanded="false">child3</span></div>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
+                                            aria-hidden="true">►</a><span
+                                            class="jqtree-title jqtree_common jqtree-title-folder" role="treeitem"
+                                            aria-level="1" aria-selected="false"
+                                            aria-expanded="false">node2</span></div>
+                                    <ul class="jqtree_common " role="group" style="display: none;">
+                                        <li class="jqtree_common">
+                                            <div class="jqtree-element jqtree_common"><span
+                                                    class="jqtree-title jqtree_common" role="treeitem" aria-level="2"
+                                                    aria-selected="false"
+                                                    aria-expanded="false">child3</span></div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                     <!-- Chips for used x-rules -->
                     <div id="targetDiv"> drag here
-                    <!--<div class="chips">test<i class="close material-icons">close</i></div>-->
-                    <!--<div class="chips chips-initial">test1<i class="close material-icons">close</i></div>-->
-                    <!--<div class="chips chips-placeholder">test2<i class="close material-icons">close</i></div>-->
-                    <!--<div class="chips chips-autocomplete">test3<i class="close material-icons">close</i></div>-->
+                        <!--<div class="chips">test<i class="close material-icons">close</i></div>-->
+                        <!--<div class="chips chips-initial">test1<i class="close material-icons">close</i></div>-->
+                        <!--<div class="chips chips-placeholder">test2<i class="close material-icons">close</i></div>-->
+                        <!--<div class="chips chips-autocomplete">test3<i class="close material-icons">close</i></div>-->
                     </div>
                 </div>
                 <div class="card-action">
@@ -222,51 +224,53 @@
                 <div class="card-content">
                     <span class="card-title grey-text text-darken-4">Output File</span>
                     <!-- add jTree-->
-                    <div id="tree1">
-                        <ul class="jqtree_common jqtree-tree" role="tree">
-                            <li class="jqtree_common jqtree-folder jqtree-closed jqtree-selected"
-                                aria-selected="true">
-                                <div class="jqtree-element jqtree_common"><a
-                                        class="jqtree-toggler jqtree_common jqtree-toggler-left jqtree-closed"
+                    <div class="scroll-container">
+                        <div id="tree2" data-url="test-date.json">
+                            <ul class="jqtree_common jqtree-tree" role="tree">
+                                <li class="jqtree_common jqtree-folder jqtree-closed jqtree-selected"
+                                    aria-selected="true">
+                                    <div class="jqtree-element jqtree_common"><a
+                                            class="jqtree-toggler jqtree_common jqtree-toggler-left jqtree-closed"
 
-                                        aria-hidden="true">►</a><span
-                                        class="jqtree-title jqtree_common jqtree-title-folder" role="treeitem"
-                                        aria-level="1" aria-selected="false" aria-expanded="false"
-                                        tabindex="0">node1</span></div>
-                                <ul class="jqtree_common " role="group" style="display: none;">
-                                    <li class="jqtree_common">
-                                        <div class="jqtree-element jqtree_common"><span
-                                                class="jqtree-title jqtree_common" role="treeitem" aria-level="2"
-                                                aria-selected="false"
-                                                aria-expanded="false">child1</span></div>
-                                    </li>
-                                    <li class="jqtree_common">
-                                        <div class="jqtree-element jqtree_common"><span
-                                                class="jqtree-title jqtree_common" role="treeitem" aria-level="2"
-                                                aria-selected="false"
-                                                aria-expanded="false">child2</span></div>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="jqtree_common jqtree-folder jqtree-closed"
-                                aria-selected="false">
-                                <div class="jqtree-element jqtree_common"><a
-                                        class="jqtree-toggler jqtree_common jqtree-toggler-left jqtree-closed"
+                                            aria-hidden="true">►</a><span
+                                            class="jqtree-title jqtree_common jqtree-title-folder" role="treeitem"
+                                            aria-level="1" aria-selected="false" aria-expanded="false"
+                                            tabindex="0">node1</span></div>
+                                    <ul class="jqtree_common " role="group" style="display: none;">
+                                        <li class="jqtree_common">
+                                            <div class="jqtree-element jqtree_common"><span
+                                                    class="jqtree-title jqtree_common" role="treeitem" aria-level="2"
+                                                    aria-selected="false"
+                                                    aria-expanded="false">child1</span></div>
+                                        </li>
+                                        <li class="jqtree_common">
+                                            <div class="jqtree-element jqtree_common"><span
+                                                    class="jqtree-title jqtree_common" role="treeitem" aria-level="2"
+                                                    aria-selected="false"
+                                                    aria-expanded="false">child2</span></div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="jqtree_common jqtree-folder jqtree-closed"
+                                    aria-selected="false">
+                                    <div class="jqtree-element jqtree_common"><a
+                                            class="jqtree-toggler jqtree_common jqtree-toggler-left jqtree-closed"
 
-                                        aria-hidden="true">►</a><span
-                                        class="jqtree-title jqtree_common jqtree-title-folder" role="treeitem"
-                                        aria-level="1" aria-selected="false"
-                                        aria-expanded="false">node2</span></div>
-                                <ul class="jqtree_common " role="group" style="display: none;">
-                                    <li class="jqtree_common">
-                                        <div class="jqtree-element jqtree_common"><span
-                                                class="jqtree-title jqtree_common" role="treeitem" aria-level="2"
-                                                aria-selected="false"
-                                                aria-expanded="false">child3</span></div>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
+                                            aria-hidden="true">►</a><span
+                                            class="jqtree-title jqtree_common jqtree-title-folder" role="treeitem"
+                                            aria-level="1" aria-selected="false"
+                                            aria-expanded="false">node2</span></div>
+                                    <ul class="jqtree_common " role="group" style="display: none;">
+                                        <li class="jqtree_common">
+                                            <div class="jqtree-element jqtree_common"><span
+                                                    class="jqtree-title jqtree_common" role="treeitem" aria-level="2"
+                                                    aria-selected="false"
+                                                    aria-expanded="false">child3</span></div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <div class="card-action">
@@ -412,7 +416,6 @@
 <script src="js/my-jqtree-logic.js"></script>
 
 <script>
-
 
 
 </script>
