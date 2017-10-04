@@ -66,6 +66,7 @@ $(document).ready(function () {
 });
 
 $('#centralPanelProcessBtn').click(function () {
+    console.log("Process button clicked");
     // todo: process existing x-rules
 });
 
