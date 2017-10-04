@@ -20,7 +20,7 @@ $(function () {
     var targetDiv = $("#targetDiv");
 
     function isOverTarget(e) {
-        console.log("isOverTarget() called");
+        console.log("dnd: isOverTarget() called");
         return ( e.clientX > targetDiv.position().left &&
             e.clientX < targetDiv.position().left + targetDiv.width() &&
             e.clientY > targetDiv.position().top &&
@@ -28,7 +28,7 @@ $(function () {
     }
 
     function handleMove(node, e) {
-        alert("handleMove() called");
+        alert("dnd: handleMove() called");
         console.log("handleMove() called");
         if (isOverTarget(e)) {
             console.log("the node is over the target div");
@@ -36,19 +36,31 @@ $(function () {
     }
 
     function handleStop(node, e) {
-        alert("handleStop() called");
-        console.log("handleStop() called");
-        console.log("stopped over target: ", isOverTarget(e));
+        alert("dnd: handleStop() called");
+        console.log("dnd: handleStop() called");
+        console.log("dnd: stopped over target: ", isOverTarget(e));
     }
-
-    $("#tree1, #tree2").tree({
-        dragAndDrop: true,
-        onDragMove: handleMove,
-        onDragStop: handleStop
-    });
 });
 
-$('#tree1, #tree2').tree({
+$("#tree1").tree({
+    dragAndDrop: true,
+    onDragMove: handleMove,
+    onDragStop: handleStop
+});
+
+$("#tree2").tree({
+    dragAndDrop: true,
+    onDragMove: handleMove,
+    onDragStop: handleStop
+});
+
+$('#tree1').tree({
+    data: data,
+    autoOpen: true,
+    dragAndDrop: true
+});
+
+$('#tree2').tree({
     data: data,
     autoOpen: true,
     dragAndDrop: true
@@ -69,7 +81,7 @@ $('#tree1, #tree2').bind(
     function (event) {
         if (event.node) {
             var selectedNode = event.node;
-            console.log("selected node: " + selectedNode);
+            console.log("select: selected node: " + selectedNode);
             // todo: add handling of selecting node
         }
     }
@@ -79,7 +91,7 @@ $('#tree1, #tree2').bind(
     'tree.contextmenu',
     function (event) {
         var clickedNode = event.node;
-        console.log("contextmenu: " + clickedNode);
+        console.log("select: contextmenu: " + clickedNode);
         // todo: add handling of clickedNode context menu
     }
 );
