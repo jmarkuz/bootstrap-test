@@ -1,19 +1,3 @@
-// -------- test data for JqTree ---------
-var data = [
-    {
-        name: 'node1', id: 1,
-        children: [
-            {name: 'child1', id: 2},
-            {name: 'child2', id: 3}
-        ]
-    }, {
-        name: 'node2', id: 4,
-        children: [
-            {name: 'child3', id: 5}
-        ]
-    }
-];
-
 // ------------ JqTree dnd --------------
 
 $(function () {
@@ -40,21 +24,16 @@ $(function () {
         console.log("dnd: handleStop() called");
         console.log("dnd: stopped over target: ", isOverTarget(e));
     }
+
+    $("#tree1, #tree2").tree({
+        dragAndDrop: true,
+        onDragMove: handleMove,
+        onDragStop: handleStop
+    });
 });
 
-$("#tree1").tree({
-    dragAndDrop: true,
-    onDragMove: handleMove,
-    onDragStop: handleStop
-});
-
-$("#tree2").tree({
-    dragAndDrop: true,
-    onDragMove: handleMove,
-    onDragStop: handleStop
-});
-
-$('#tree1').tree({
+// todo: need to verify how to load data from out json file
+/*$('#tree1').tree({
     data: data,
     autoOpen: true,
     dragAndDrop: true
@@ -64,7 +43,10 @@ $('#tree2').tree({
     data: data,
     autoOpen: true,
     dragAndDrop: true
-});
+});*/
+
+// variant hove to add data
+$('#tree1, #tree2').tree();
 
 $('.tree-toggle').click(function () {
     alert("tree-toggle");
