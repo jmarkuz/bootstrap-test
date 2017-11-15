@@ -490,7 +490,7 @@ body {
     color: #73879C;
     background: #2A3F54;
     font-family: "Helvetica Neue", Roboto, Arial, "Droid Sans", sans-serif;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 1.471
 }
@@ -4167,15 +4167,9 @@ ul.notifications {
     border: 1px solid #e5e5e5
 }
 
-/*
-.x_content {
-    direction: rtl;
-}
-*/
-
 .main_menu .label {
     line-height: 11px;
-    margin-top: 4px;
+    margin-top: 7px;
 }
 @media (max-width: 460px) {
     .dataTables_wrapper .col-sm-6 {
