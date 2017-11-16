@@ -4188,6 +4188,7 @@ ul.notifications {
 			
 .daterangepicker.xdisplay { width:228px; }
 
+/*prevent datatables overflowing its container*/
 .dataTables_wrapper > .row{
-  overflow:auto !important; /*prevent datatables overflowing its container*/
+  overflow:auto !important;
 }
