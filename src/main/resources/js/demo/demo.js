@@ -85,14 +85,17 @@
             // bind to connection/connectionDetached events, and update the list of connections on screen.
             instance.bind("connection", function (info, originalEvent) {
                 updateConnections(info.connection);
+                alert("connection!")
             });
 
             instance.bind("connectionDetached", function (info, originalEvent) {
                 updateConnections(info.connection, true);
+                alert("connectionDetached!")
             });
 
             instance.bind("connectionMoved", function (info, originalEvent) {
                 updateConnections(info.connection, true);
+                alert("connectionMoved")
             });
 
             instance.bind("click", function (component, originalEvent) {
@@ -108,14 +111,14 @@
 
             var example3Color = "rgba(229,219,61,0.5)";
             var exampleEndpoint3 = {
-                endpoint: ["Dot", {radius: 5}],
+                endpoint: ["Dot", {radius: 7}],
                 anchor: "BottomLeft",
-                paintStyle: {fill: example3Color, opacity: 0.5},
+                paintStyle: {fill: example3Color, opacity: 0},
                 isSource: true,
                 scope: 'yellow',
                 connectorStyle: {
                     stroke: example3Color,
-                    strokeWidth: 4
+                    strokeWidth: 5
                 },
                 connector: "Straight",
                 isTarget: true,
