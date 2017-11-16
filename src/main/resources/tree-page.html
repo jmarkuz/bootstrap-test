@@ -22,8 +22,26 @@
 
     <!--Custom style -->
     <style type="text/css">
+        #main-content {
+            display: flex;
+            webkit-flex-flow: row wrap;
+            justify-content: space-around;
+        }
+
+        /** ELEMENT POSITIONS **/
+        #dragDropWindow1 {
+            top: 75px;
+            left: 100px;
+        }
+
+        #dragDropWindow2 {
+            top: 75px;
+            left: 600px;
+        }
 
     </style>
+    <!-- 'jsplumb' demo css -->
+    <link rel="stylesheet" type="text/css" href="css/demo/demo.css">
 </head>
 
 <body class="nav-md footer_fixed">
@@ -256,16 +274,14 @@
                                     <ul>
                                         <li data-jstree='{"opened":true}'>Root node
                                             <ul>
-                                                <li>Child node 1</li>
-                                                <li>Child node 2</li>
-                                                <li>Child node 3</li>
-                                                <li>Child node 4</li>
-                                                <li>Child node 5</li>
-                                                <li>Child node 6</li>
-                                                <li>Child node 7</li>
-                                                <li>Child node 8</li>
-                                                <li>Child node 9</li>
-                                                <li>Child node 10</li>
+                                                <li id="ch11_">Child node</li>
+                                                <li id="ch12">Child node </li>
+                                                <li id="ch13">Child node </li>
+                                                <li id="ch14">Child node </li>
+                                                <li id="ch15">Child node </li>
+                                                <li id="ch16">Child node </li>
+                                                <li id="ch17">Child node </li>
+                                                <li id="ch18">Child node </li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -275,19 +291,26 @@
                                     <ul>
                                         <li data-jstree='{"opened":true}'>Root node
                                             <ul>
-                                                <li>Child node 21</li>
-                                                <li>Child node 22</li>
-                                                <li>Child node 23</li>
-                                                <li>Child node 24</li>
-                                                <li>Child node 25</li>
-                                                <li>Child node 26</li>
-                                                <li>Child node 27</li>
-                                                <li>Child node 28</li>
-                                                <li>Child node 29</li>
-                                                <li>Child node 30</li>
+                                                <li id="ch21_">Child node</li>
+                                                <li id="ch22">Child node </li>
+                                                <li id="ch23">Child node </li>
+                                                <li id="ch24">Child node </li>
+                                                <li id="ch25">Child node </li>
+                                                <li id="ch26">Child node </li>
+                                                <li id="ch27">Child node </li>
+                                                <li id="ch28">Child node </li>
                                             </ul>
                                         </li>
                                     </ul>
+                                </div>
+                            </div>
+                            <!--todo: testing divs-->
+                            <div class="clearfix"></div>
+
+                            <div id="main-content">
+                                <div class="jtk-demo-canvas canvas-wide drag-drop-demo jtk-surface jtk-surface-nopan" id="canvas">
+                                    <div class="window" id="dragDropWindow1">one</div>
+                                    <div class="window" id="dragDropWindow2">two</div>
                                 </div>
                             </div>
                         </div>
@@ -315,11 +338,50 @@
 <!--<script src="js/nprogress.js"></script>-->
 <!-- jQuery custom content scroller -->
 <!--<script src="../vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>-->
+
 <!-- Custom Theme Scripts -->
 <script src="js/custom.js"></script>
-<!--jstree-->
+<!--Custom jstree-->
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jstree/3.3.3/themes/default/style.min.css"/>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jstree/3.3.3/jstree.min.js"></script>
 <script src="js/my-jstree-scripts.js"></script>
+
+<!-- jsPlumb import -->
+<script type="text/javascript" src="js/excanvas.js"></script>
+<!--<script type="text/javascript" src="js/jquery.min.js"></script>-->
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/jsplumb.min.js"></script>
+<script type="text/javascript" src="js/jquery.jsPlumb-1.0.1.js"></script>
+
+<!-- SUPPORT 'jsplumb' libs -->
+<script type="text/javascript" src="js/jsplumb-src/jsPlumb.js"></script>
+<!-- base DOM adapter -->
+<script type="text/javascript" src="js/jsplumb-src/dom-adapter.js"></script>
+
+<script type="text/javascript" src="js/jsplumb-src/overlay-component.js"></script>
+<!-- endpoint -->
+<script type="text/javascript" src="js/jsplumb-src/endpoint.js"></script>
+<!-- connection -->
+<script type="text/javascript" src="js/jsplumb-src/connection.js"></script>
+<!-- anchors -->
+<script type="text/javascript" src="js/jsplumb-src/anchors.js"></script>
+<!-- connectors, endpoint and overlays  -->
+<script type="text/javascript" src="js/jsplumb-src/defaults.js"></script>
+<!-- straight connectors -->
+<script type="text/javascript" src="js/jsplumb-src/connectors-straight.js"></script>
+<!-- SVG renderer -->
+<script type="text/javascript" src="js/jsplumb-src/renderers-svg.js"></script>
+<!-- common adapter -->
+<script type="text/javascript" src="js/jsplumb-src/base-library-adapter.js"></script>
+<!-- no library jsPlumb adapter -->
+<script type="text/javascript" src="js/jsplumb-src/dom.jsPlumb.js"></script>
+
+<!-- Custom jsPlumb -->
+<script src="js/my-jsplumb-script.js"></script>
+<!-- Testing 'jsPlumb' related file for draggable functionality testing -->
+<!--<script type="text/javascript" src="js/demo/demo-list.js"></script>-->
+<!-- todo: switched off -->
+<script type="text/javascript" src="js/demo/demo.js"></script>
+
 </body>
 </html>
