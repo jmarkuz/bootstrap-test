@@ -1,7 +1,10 @@
 ;
 (function () {
 
-    var listDiv = document.getElementById("list"),
+        var b1 = document.getElementById("dragDropWindow1");
+        var b2 = document.getElementById("dragDropWindow2");
+
+        var listDiv = {b1, b2},
 
         showConnectionInfo = function (s) {
             listDiv.innerHTML = s;
