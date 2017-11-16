@@ -1,8 +1,8 @@
 ;
 (function () {
 
-        var b1 = document.getElementById("dragDropWindow1");
-        var b2 = document.getElementById("dragDropWindow2");
+        var b1 = document.getElementById("ch11__anchor");
+        var b2 = document.getElementById("ch21__anchor");
 
         var listDiv = {b1, b2},
 
@@ -142,12 +142,11 @@
                     alert("Cannot drop connection " + info.connection.id + " : maxConnections has been reached on Endpoint " + info.endpoint.id);
                 };
 
-            var e1 = instance.addEndpoint("dragDropWindow1", {anchor: "RightMiddle"}, exampleEndpoint3);
+            var e1 = instance.addEndpoint("ch11__anchor", {anchor: "RightMiddle"}, exampleEndpoint3);
             // can bind for a maxConnections callback using a standard bind call, but can also supply 'onMaxConnections' in an Endpoint definition - see exampleEndpoint3 above.
-            var e1 = instance.addEndpoint("dragDropWindow1", {anchor: "RightMiddle"}, exampleEndpoint3);
             e1.bind("maxConnections", maxConnectionsCallback);
 
-            var e2 = instance.addEndpoint('dragDropWindow2', {anchor: "LeftMiddle"}, exampleEndpoint3);
+            var e2 = instance.addEndpoint('ch21__anchor', {anchor: "LeftMiddle"}, exampleEndpoint3);
             e2.bind("maxConnections", maxConnectionsCallback);
 
             // make .window divs draggable
