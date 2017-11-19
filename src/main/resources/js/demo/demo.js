@@ -1,29 +1,7 @@
 ;
 (function () {
-        // left tree nodes
-        var node_11 = document.getElementById("ch11_anchor");
-        var node_12 = document.getElementById("ch12_anchor");
-        var node_13 = document.getElementById("ch13_anchor");
-        var node_14 = document.getElementById("ch14_anchor");
-        var node_15 = document.getElementById("ch15_anchor");
-        var node_16 = document.getElementById("ch16_anchor");
-        var node_17 = document.getElementById("ch17_anchor");
-        var node_18 = document.getElementById("ch18_anchor");
 
-        // right tree nodes
-        var node_21 = document.getElementById("ch21_anchor");
-        var node_22 = document.getElementById("ch22_anchor");
-        var node_23 = document.getElementById("ch23_anchor");
-        var node_24 = document.getElementById("ch24_anchor");
-        var node_25 = document.getElementById("ch25_anchor");
-        var node_26 = document.getElementById("ch26_anchor");
-        var node_27 = document.getElementById("ch27_anchor");
-        var node_28 = document.getElementById("ch28_anchor");
-
-        // node list: node_1*-left tree, node_2*- right tree nodes
-        var listDiv = {node_11, node_12, node_13, node_14, node_15, node_16, node_17, node_18,
-                       node_21, node_22, node_23, node_24, node_25, node_26, node_27, node_28},
-
+    var listDiv = document.getElementById("list"),
         showConnectionInfo = function (s) {
             listDiv.innerHTML = s;
             listDiv.style.display = "block";
@@ -48,11 +26,14 @@
             if (connections.length > 0) {
                 var s = "<span><strong>Connections</strong></span><br/><br/><table><tr><th>Scope</th><th>Source</th><th>Target</th></tr>";
                 for (var j = 0; j < connections.length; j++) {
-                    s = s + "<tr><td>" + connections[j].scope + "</td>" + "<td>" + connections[j].sourceId + "</td><td>" + connections[j].targetId + "</td></tr>";
+                    s = s + "<tr><td>" + connections[j].scope + "</td>" + "<td>" + connections[j].sourceId + "->" + "</td><td>" + connections[j].targetId + "</td></tr>";
                 }
                 showConnectionInfo(s);
-            } else
+                console.log("showConnectionInfo: " + s)
+            } else {
                 hideConnectionInfo();
+                console.log("hideConnectionInfo:")
+            }
         };
 
     jsPlumb.ready(function () {
@@ -88,8 +69,8 @@
 
         var basicType = {
             connector: "StateMachine",
-            paintStyle: {stroke: "red", strokeWidth: 4},
-            hoverPaintStyle: {stroke: "blue"},
+            paintStyle: {stroke: "rgba(23, 246, 168, 0.83)", strokeWidth: 4},
+            hoverPaintStyle: {stroke: "green"},
             overlays: [
                 "Arrow"
             ]
@@ -103,7 +84,7 @@
             // bind to connection/connectionDetached events, and update the list of connections on screen.
             instance.bind("connection", function (info, originalEvent) {
                 updateConnections(info.connection);
-                alert("connection!")
+                //todo: handler for mapping nodes
             });
 
             instance.bind("connectionDetached", function (info, originalEvent) {
@@ -117,7 +98,7 @@
             });
 
             instance.bind("click", function (component, originalEvent) {
-                alert("click!")
+                //todo: handler for click action
             });
 
             // configure some drop options for use by all endpoints.
@@ -127,15 +108,60 @@
                 activeClass: "dragActive"
             };
 
-            var example3Color = "rgba(229,219,61,0.5)";
-            var exampleEndpoint3 = {
+            // RGB - endpoint colors
+            var redArrowColor = "rgb(247, 3, 3)"; //todo: alternative rgba(63, 191, 63, 0.5)
+            var redEndpointColor = {
                 endpoint: ["Dot", {radius: 7}],
                 anchor: "BottomLeft",
-                paintStyle: {fill: example3Color, opacity: 0},
+                paintStyle: {fill: redArrowColor, opacity: 0},
                 isSource: true,
-                scope: 'yellow',
+                scope: 'all',
                 connectorStyle: {
-                    stroke: example3Color,
+                    stroke: redArrowColor,
+                    strokeWidth: 5
+                },
+                connector: "Straight",
+                isTarget: true,
+                dropOptions: exampleDropOptions,
+                beforeDetach: function (conn) {
+                    return confirm("Detach connection?");
+                },
+                onMaxConnections: function (info) {
+                    alert("Cannot drop connection " + info.connection.id + " : maxConnections has been reached on Endpoint " + info.endpoint.id);
+                }
+            };
+
+            var greenArrowColor = "rgb(63, 191, 63)";
+            var greenEndpointColor = {
+                endpoint: ["Dot", {radius: 7}],
+                anchor: "BottomLeft",
+                paintStyle: {fill: greenArrowColor, opacity: 0},
+                isSource: true,
+                scope: 'all',
+                connectorStyle: {
+                    stroke: greenArrowColor,
+                    strokeWidth: 5
+                },
+                connector: "Straight",
+                isTarget: true,
+                dropOptions: exampleDropOptions,
+                beforeDetach: function (conn) {
+                    return confirm("Detach connection?");
+                },
+                onMaxConnections: function (info) {
+                    alert("Cannot drop connection " + info.connection.id + " : maxConnections has been reached on Endpoint " + info.endpoint.id);
+                }
+            };
+
+            var blueArrowColor = "rgb(3, 132, 247)";
+            var blueEndpointColor = {
+                endpoint: ["Dot", {radius: 7}],
+                anchor: "BottomLeft",
+                paintStyle: {fill: blueArrowColor, opacity: 0},
+                isSource: true,
+                scope: 'all',
+                connectorStyle: {
+                    stroke: blueArrowColor,
                     strokeWidth: 5
                 },
                 connector: "Straight",
@@ -162,55 +188,42 @@
 
             // can bind for a maxConnections callback using a standard bind call, but can also supply 'onMaxConnections' in an Endpoint definition - see exampleEndpoint3 above.
             // left hand tree anchors
-            var e11 = instance.addEndpoint("ch11_anchor", {anchor: "RightMiddle"}, exampleEndpoint3);
+            var e11 = instance.addEndpoint("ch11_anchor", {anchor: "RightMiddle"}, redEndpointColor);
             e11.bind("maxConnections", maxConnectionsCallback);
 
-            var e12 = instance.addEndpoint("ch12_anchor", {anchor: "RightMiddle"}, exampleEndpoint3);
+            var e12 = instance.addEndpoint("ch12_anchor", {anchor: "RightMiddle"}, redEndpointColor);
             e12.bind("maxConnections", maxConnectionsCallback);
 
-            var e13 = instance.addEndpoint("ch13_anchor", {anchor: "RightMiddle"}, exampleEndpoint3);
+            var e13 = instance.addEndpoint("ch13_anchor", {anchor: "RightMiddle"}, greenEndpointColor);
             e13.bind("maxConnections", maxConnectionsCallback);
 
-            var e14 = instance.addEndpoint("ch14_anchor", {anchor: "RightMiddle"}, exampleEndpoint3);
+            var e14 = instance.addEndpoint("ch14_anchor", {anchor: "RightMiddle"}, greenEndpointColor);
             e14.bind("maxConnections", maxConnectionsCallback);
 
-            var e15 = instance.addEndpoint("ch15_anchor", {anchor: "RightMiddle"}, exampleEndpoint3);
+            var e15 = instance.addEndpoint("ch15_anchor", {anchor: "RightMiddle"}, blueEndpointColor);
             e15.bind("maxConnections", maxConnectionsCallback);
 
-            var e16 = instance.addEndpoint("ch16_anchor", {anchor: "RightMiddle"}, exampleEndpoint3);
+            var e16 = instance.addEndpoint("ch16_anchor", {anchor: "RightMiddle"}, blueEndpointColor);
             e16.bind("maxConnections", maxConnectionsCallback);
 
-            var e17 = instance.addEndpoint("ch17_anchor", {anchor: "RightMiddle"}, exampleEndpoint3);
-            e17.bind("maxConnections", maxConnectionsCallback);
-
-            var e18 = instance.addEndpoint("ch18_anchor", {anchor: "RightMiddle"}, exampleEndpoint3);
-            e18.bind("maxConnections", maxConnectionsCallback);
-
-
             // right hand tree anchors
-            var e21 = instance.addEndpoint('ch21_anchor', {anchor: "LeftMiddle"}, exampleEndpoint3);
+            var e21 = instance.addEndpoint('ch21_anchor', {anchor: "LeftMiddle"}, redEndpointColor);
             e21.bind("maxConnections", maxConnectionsCallback);
 
-            var e22 = instance.addEndpoint('ch22_anchor', {anchor: "LeftMiddle"}, exampleEndpoint3);
+            var e22 = instance.addEndpoint('ch22_anchor', {anchor: "LeftMiddle"}, redEndpointColor);
             e22.bind("maxConnections", maxConnectionsCallback);
 
-            var e23 = instance.addEndpoint('ch23_anchor', {anchor: "LeftMiddle"}, exampleEndpoint3);
+            var e23 = instance.addEndpoint('ch23_anchor', {anchor: "LeftMiddle"}, greenEndpointColor);
             e23.bind("maxConnections", maxConnectionsCallback);
 
-            var e24 = instance.addEndpoint('ch24_anchor', {anchor: "LeftMiddle"}, exampleEndpoint3);
+            var e24 = instance.addEndpoint('ch24_anchor', {anchor: "LeftMiddle"}, greenEndpointColor);
             e24.bind("maxConnections", maxConnectionsCallback);
 
-            var e25 = instance.addEndpoint('ch25_anchor', {anchor: "LeftMiddle"}, exampleEndpoint3);
+            var e25 = instance.addEndpoint('ch25_anchor', {anchor: "LeftMiddle"}, blueEndpointColor);
             e25.bind("maxConnections", maxConnectionsCallback);
 
-            var e26 = instance.addEndpoint('ch26_anchor', {anchor: "LeftMiddle"}, exampleEndpoint3);
+            var e26 = instance.addEndpoint('ch26_anchor', {anchor: "LeftMiddle"}, blueEndpointColor);
             e26.bind("maxConnections", maxConnectionsCallback);
-
-            var e27 = instance.addEndpoint('ch27_anchor', {anchor: "LeftMiddle"}, exampleEndpoint3);
-            e27.bind("maxConnections", maxConnectionsCallback);
-
-            var e28 = instance.addEndpoint('ch28_anchor', {anchor: "LeftMiddle"}, exampleEndpoint3);
-            e28.bind("maxConnections", maxConnectionsCallback);
 
             // make .window divs draggable
             instance.draggable(jsPlumb.getSelector(".drag-drop-demo .window"));
