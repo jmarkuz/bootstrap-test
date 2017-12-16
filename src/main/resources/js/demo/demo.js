@@ -175,6 +175,30 @@
                 }
             };
 
+            // Rectangle anchor type
+            var rectTestColor = "rgba(252, 252, 40, 0.3)";
+            var rectangleTestEndpoint = {
+                endpoint: "Rectangle",
+                paintStyle: { width: 100, height: 24, fill: rectTestColor },
+                isSource: true,
+                reattach: true,
+                scope: "all",
+                connectorStyle: {
+                    gradient: {stops: [
+                        [0, rectTestColor],
+                        [0.5, "rgb(252, 252, 40)"],
+                        [1, rectTestColor]
+                    ]},
+                    strokeWidth: 5,
+                    stroke: rectTestColor
+                },
+                isTarget: true,
+                beforeDrop: function (params) {
+                    return true; //todo: add handler confirm("Connect " + params.sourceId + " to " + params.targetId + "?");
+                },
+                dropOptions: exampleDropOptions
+            };
+
             // setup some DynamicAnchors for use and maxConnections callback.
             var anchors = [
                     [1, 0.2, 1, 0],

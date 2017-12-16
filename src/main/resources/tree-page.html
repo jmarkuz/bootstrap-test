@@ -15,8 +15,8 @@
     <!-- Custom Theme Style -->
     <link href="css/custom.css" rel="stylesheet">
     <!-- Add my style -->
-    <link rel="stylesheet" href="css/my-test.css">
-    <link rel="stylesheet" href="css/tree-related.css">
+    <link href="css/my-test.css" rel="stylesheet" >
+    <link href="css/tree-related.css" rel="stylesheet">
     <!-- jsTree theme -->
     <!--<link rel="stylesheet" href="node_modules/jstree/dist/themes/default/style.min.css">-->
 
@@ -39,6 +39,7 @@
             left: 600px;
         }
 
+
     </style>
     <!-- 'jsplumb' demo css -->
     <link rel="stylesheet" type="text/css" href="css/demo/demo.css">
@@ -46,14 +47,15 @@
 
 <body class="nav-md footer_fixed">
 <div class="container body">
+
     <div class="main_container">
         <div class="col-md-3 left_col">
             <div class="left_col scroll-view">
                 <div class="navbar nav_title" style="border: 0;">
-                    <a href="index.html" class="site_title"><i
-                            class="material-icons">blur_on</i><span>XRules Generator</span></a>
+                    <a href="tree-page.html" class="site_title">
+                        <i class="material-icons">blur_on</i><span>XRules Generator</span>
+                    </a>
                 </div>
-
                 <div class="clearfix"></div>
 
                 <!-- menu profile quick info -->
@@ -66,7 +68,6 @@
                         <h2>User name</h2>
                     </div>
                 </div>
-
                 <br/>
 
                 <!-- sidebar menu -->
@@ -259,8 +260,7 @@
                                     <li><a class="collapse-link"><i class="material-icons">keyboard_arrow_up</i></a>
                                     </li>
                                     <li class="dropdown">
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                                           aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
                                     </li>
                                     <li><a class="close-link"><i class="material-icons">close</i></a>
                                     </li>
@@ -275,11 +275,11 @@
                                         <li data-jstree='{"opened":true}'>Root node
                                             <ul>
                                                 <li id="ch11">Child node</li>
-                                                <li id="ch12">Child node </li>
-                                                <li id="ch13">Child node </li>
-                                                <li id="ch14">Child node </li>
-                                                <li id="ch15">Child node </li>
-                                                <li id="ch16">Child node </li>
+                                                <li id="ch12">Child node</li>
+                                                <li id="ch13">Child node</li>
+                                                <li id="ch14">Child node</li>
+                                                <li id="ch15">Child node</li>
+                                                <li id="ch16">Child node</li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -290,11 +290,11 @@
                                         <li data-jstree='{"opened":true}'>Root node
                                             <ul>
                                                 <li id="ch21">Child node</li>
-                                                <li id="ch22">Child node </li>
-                                                <li id="ch23">Child node </li>
-                                                <li id="ch24">Child node </li>
-                                                <li id="ch25">Child node </li>
-                                                <li id="ch26">Child node </li>
+                                                <li id="ch22">Child node</li>
+                                                <li id="ch23">Child node</li>
+                                                <li id="ch24">Child node</li>
+                                                <li id="ch25">Child node</li>
+                                                <li id="ch26">Child node</li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -326,60 +326,38 @@
 </div>
 </div>
 
-<!-- jQuery -->
+<!-- jQuery / Bootstrap  -->
 <script src="js/jquery.min.js"></script>
-<!-- Bootstrap -->
 <script src="js/bootstrap.min.js"></script>
-<!-- FastClick -->
-<!--<script src="../vendors/fastclick/lib/fastclick.js"></script>-->
-<!-- NProgress -->
-<!--<script src="js/nprogress.js"></script>-->
-<!-- jQuery custom content scroller -->
-<!--<script src="../vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>-->
-
 <!-- Custom Theme Scripts -->
 <script src="js/custom.js"></script>
-<!--Custom jstree-->
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jstree/3.3.3/themes/default/style.min.css"/>
+<!-- Custom jstree -->
 <script src="//cdnjs.cloudflare.com/ajax/libs/jstree/3.3.3/jstree.min.js"></script>
 <script src="js/my-jstree-scripts.js"></script>
 
 <!-- jsPlumb import -->
 <script type="text/javascript" src="js/excanvas.js"></script>
-<!--<script type="text/javascript" src="js/jquery.min.js"></script>-->
 <script type="text/javascript" src="js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="js/jsplumb.min.js"></script>
 <script type="text/javascript" src="js/jquery.jsPlumb-1.0.1.js"></script>
 
-<!-- SUPPORT 'jsplumb' libs -->
+<!-- 'jsplumb' SUPPORT -->
 <script type="text/javascript" src="js/jsplumb-src/jsPlumb.js"></script>
-<!-- base DOM adapter -->
 <script type="text/javascript" src="js/jsplumb-src/dom-adapter.js"></script>
-
 <script type="text/javascript" src="js/jsplumb-src/overlay-component.js"></script>
-<!-- endpoint -->
 <script type="text/javascript" src="js/jsplumb-src/endpoint.js"></script>
-<!-- connection -->
 <script type="text/javascript" src="js/jsplumb-src/connection.js"></script>
-<!-- anchors -->
 <script type="text/javascript" src="js/jsplumb-src/anchors.js"></script>
-<!-- connectors, endpoint and overlays  -->
 <script type="text/javascript" src="js/jsplumb-src/defaults.js"></script>
-<!-- straight connectors -->
 <script type="text/javascript" src="js/jsplumb-src/connectors-straight.js"></script>
-<!-- SVG renderer -->
 <script type="text/javascript" src="js/jsplumb-src/renderers-svg.js"></script>
-<!-- common adapter -->
 <script type="text/javascript" src="js/jsplumb-src/base-library-adapter.js"></script>
-<!-- no library jsPlumb adapter -->
 <script type="text/javascript" src="js/jsplumb-src/dom.jsPlumb.js"></script>
 
 <!-- Custom jsPlumb -->
-<script src="js/my-jsplumb-script.js"></script>
-<!-- Testing 'jsPlumb' related file for draggable functionality testing -->
+<script type="text/javascript" src="js/my-jsplumb-script.js"></script>
+<!-- Testing 'jsPlumb' draggable related functionality -->
 <script type="text/javascript" src="js/demo/demo-list.js"></script>
-<!-- todo: switched off -->
 <script type="text/javascript" src="js/demo/demo.js"></script>
-
 </body>
 </html>

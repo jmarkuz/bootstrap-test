@@ -1,0 +1,72 @@
+[
+  {
+    "name": "node1",
+    "text": "node1",
+    "id": 2.1
+  },
+  {
+    "name": "node2",
+    "text": "node2",
+    "id": 2.2,
+    "children": [
+      {
+        "name": "child21",
+        "text": "child21",
+        "id": 2.21,
+        "children": [
+          {
+            "name": "child211",
+            "text": "child211",
+            "id": 2.211
+          },
+          {
+            "name": "child212",
+            "text": "child212",
+            "id": 2.212
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "node3",
+    "text": "node3",
+    "id": 2.3,
+    "children": [
+      {
+        "name": "child31",
+        "text": "child31",
+        "id": 2.31
+      },
+      {
+        "name": "child32",
+        "text": "child32",
+        "id": 2.32
+      },
+      {
+        "name": "child33",
+        "text": "child33",
+        "id": 2.33,
+        "children": [
+          {
+            "name": "child331",
+            "text": "child331",
+            "id": 2.331,
+            "children": [
+              {
+                "name": "child3311",
+                "text": "child3311",
+                "id": 2.3311
+              },
+              {
+                "name": "child3312",
+                "text": "child3312",
+                "id": 2.3312
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
